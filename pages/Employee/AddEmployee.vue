@@ -1,13 +1,13 @@
 <template>
-<AddEmployee />
+<Dashboard />
 </template>
 
 <script>
-import AddEmployee from "~/pages/DashBoard";
+import Dashboard from "~/pages/Dashboard";
 name:'AddEmployee'
   export default {
     components:{
-      AddEmployee
+      Dashboard
     }
 
   }

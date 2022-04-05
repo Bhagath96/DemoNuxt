@@ -156,12 +156,6 @@
             </svg>
             Projects
           </a>
-
-
-
-
-
-
         </nav>
       </div>
     </div>

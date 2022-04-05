@@ -84,11 +84,10 @@ export default {
     }
   },
     updated() {
-      console.log('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&',this.Closed);
     },
      methods:{
    goToAdd(){
-   this.$router.push('Employee/AddEmployee');
+   this.$router.push('Employee/Addemployee');
       }
   }
 

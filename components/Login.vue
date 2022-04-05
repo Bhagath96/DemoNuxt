@@ -78,7 +78,7 @@
   export default {
     methods:{
    goToHome(){
-   this.$router.push('/DashBoard');
+   this.$router.push('/Dashboard');
       }
   }
 

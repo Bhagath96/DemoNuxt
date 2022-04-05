@@ -23,7 +23,7 @@
   </div>
      <div class="content">
         <div v-if="activetab ==='1'" class="tabcontent">
-          <general-view />
+          <Generalview />
         </div>
         <div v-if="activetab ==='2'" class="tabcontent">
              <assets/>
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import GeneralView from '~/pages/Employee/GeneralView'
+import Generalview from '~/pages/Employee/Generalview'
 import Assets from '~/pages/Employee/Assets'
   name:'TabView';
 const activetab = 1;
@@ -46,7 +46,7 @@ export default {
     }
   },
   components:{
-    GeneralView,
+    Generalview,
     Assets
   },
   beforeCreate(){

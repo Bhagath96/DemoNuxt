@@ -235,7 +235,7 @@
 <script>
  import Modal from "~/components/Modal";
 
-name:'GeneralView'
+name:'Generalview'
   export default {
      data() {
     return {
