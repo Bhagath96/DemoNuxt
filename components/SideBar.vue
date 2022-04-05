@@ -166,6 +166,9 @@
 
 <script>
   export default {
+       components:{
+      sidebar
+    }
 
   }
 </script>
