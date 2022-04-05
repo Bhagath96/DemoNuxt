@@ -38,7 +38,7 @@ export default {
   ],
   router:{
     routes:[
-    { path:'/home',component:'/DashBoard'  }
+    { path:'/home',component:'/Dashboard'  }
     ]
 
   },
