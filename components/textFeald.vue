@@ -15,6 +15,7 @@
 </template>
 
 <script>
+name:'textfeald'
   export default {
 
   }

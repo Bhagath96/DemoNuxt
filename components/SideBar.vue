@@ -165,10 +165,8 @@
 </template>
 
 <script>
+name:'Sidebar'
   export default {
-       components:{
-      sidebar
-    }
 
   }
 </script>

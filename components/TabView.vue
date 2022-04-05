@@ -36,7 +36,7 @@
 <script>
 import Generalview from '~/pages/Employee/Generalview'
 import Assets from '~/pages/Employee/Assets'
-  name:'TabView';
+  name:'Tabview';
 const activetab = 1;
 
 export default {
