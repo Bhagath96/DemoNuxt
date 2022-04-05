@@ -1,0 +1,2 @@
+# DemoNuxt
+for lerning purpose
