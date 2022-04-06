@@ -1,21 +1,6 @@
 <template>
 
  <form class="space-y-8 divide-y divide-gray-200">
-     <div> <Modal v-show="showModal" @close-modal="showModal=false" /></div>
-
-   <div style="margin-left:20px" class="flex justify-between">
-     <div>
-       <h2>Employee</h2>
-     </div>
-     <div class="order-last" style="margin-right:35px">
-       <button  @click="showModal = true" type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add Attachment +</button>
-            <select id="country" name="Gender" autocomplete="country-name" class="min-w-[180px]" style="border-width: 2.25px">
-              <option>Actions</option>
-              <option>Female</option>
-              <option>TG</option>
-            </select>
-     </div>
-   </div>
    <table class="flex flex-col items-center mt-2 overflow-auto" style="margin-top:2px">
      <tr>
         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500" >
@@ -230,10 +215,10 @@
      </tr>
     </table>
  </form>
+
 </template>
 
 <script>
- import Modal from "~/components/Modal";
 
 name:'Generalview'
   export default {
