@@ -2,14 +2,19 @@
   <div class="px-4 sm:px-6 lg:px-8" >
     <div class="sm:flex sm:items-center">
       <div class="sm:flex-auto">
-        <h1 class="text-xl font-semibold text-gray-900">Employee</h1>
+        <h1 class="text-xl font-semibold text-gray-900" style="font-weight:700;font-size:20px">Employee</h1>
+        <div class="mt-1">
+        <breadcrumb />
+        </div>
       </div>
       <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
-        <button type="button" @click="goToAdd()" class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto">Add employee</button>
+        <button type="button" @click="goToAdd()" class="inline-flex items-center justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto">+ Add employee</button>
       </div>
     </div>
     <div class="mt-8 flex flex-col">
-      <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div style="padding-bottom:20px"><search /></div>
+
+      <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8" style="">
         <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
           <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
             <table class="min-w-full divide-y divide-gray-300">
@@ -42,6 +47,8 @@
         </div>
       </div>
     </div>
+    <div> <pagination /></div>
+
   </div>
 </template>
 
@@ -69,12 +76,19 @@ const people = [
 ]
 import Modal from "~/components/Modal";
 import { log } from 'util';
+import Search from "~/components/Search";
+import Pagination from "~/components/Pagination";
+import Breadcrumb from "~/components/Breadcrumb";
+
 
 
 export default {
   name:'Table',
   components:{
-   Modal
+   Modal,
+   Search,
+   Pagination,
+   Breadcrumb
   },
   data() {
     return {

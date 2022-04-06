@@ -17,7 +17,15 @@
 
      <div class="order-last" style="margin-right:35px">
        <button  @click="showModal = true" type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add Attachment +</button>
-            <select id="country" name="Gender" autocomplete="country-name" class="min-w-[180px]" style="border-width: 2.25px">
+            <select id="country" name="Gender" autocomplete="country-name"
+            class="
+              border border-gray-300
+              bg-white
+              rounded-md
+              shadow-sm
+              focus:outline-none focus:ring-indigo-500 focus:border-indigo-500
+              sm:text-sm leading-4 font-medium rounded-md text-gray-700 "
+            style="border-width: 0.25px ">
               <option>Actions</option>
               <option>Female</option>
               <option>TG</option>
