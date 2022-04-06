@@ -4,7 +4,7 @@
       <div class="sm:flex-auto">
         <h1 class="text-xl font-semibold text-gray-900" style="font-weight:700;font-size:20px">Employee</h1>
         <div class="mt-1">
-        <breadcrumb />
+        <Breadcrumb />
         </div>
       </div>
       <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="mt-8 flex flex-col">
-      <div style="padding-bottom:20px"><search /></div>
+      <div style="padding-bottom:20px"><Search /></div>
 
       <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8" style="">
         <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
@@ -47,7 +47,7 @@
         </div>
       </div>
     </div>
-    <div> <pagination /></div>
+    <div> <Pagination /></div>
 
   </div>
 </template>
