@@ -25,7 +25,7 @@
 </template>
 
 <script>
-name:'pagination'
+name:'Pagination'
   export default {
 
   }

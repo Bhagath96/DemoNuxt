@@ -13,7 +13,7 @@
 </template>
 
 <script>
-name:'search'
+name:'Search'
   export default {
 
   }
