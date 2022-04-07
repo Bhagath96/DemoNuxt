@@ -36,33 +36,56 @@
           </svg>
         </button>
       </div>
-      <div class="sm:flex sm:items-start">
-   <table class="flex flex-col items-center mt-2 overflow-auto" style="margin-top:2px">
-     <tr>
-
-        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-          <label for="region" class="block text-sm font-medium text-gray-700"> Document Type </label>
-          <div class="mt-1">
-            <input  class="min-w-[180px]" type="text" name="postal-code" id="postal-code" autocomplete="postal-code" style="border-width: 2.25px">
-          </div>
-        </td>
-
-     </tr>
-     <tr>
-        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-          <label for="region" class="block text-sm font-medium text-gray-700"> File Upload </label>
-          <div class="mt-1">
-            <input  class="min-w-[180px]" type="file"
+      <div class="sm:flex sm:items-start" style="flex-direction:column">
+        <div class="col-span-6 sm:col-span-2" style="margin-bottom:10px">
+          <label
+            for="first-name"
+            class="block text-sm font-medium text-gray-700"
+            >Document Type</label
+          >
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="Document Type"
+            autocomplete="given-name"
+            class="
+              mt-1
+              focus:ring-indigo-500 focus:border-indigo-500
+              block
+              w-full
+              shadow-sm
+              sm:text-sm
+              border-gray-300
+              rounded-md
+            "
+          />
+        </div>
+        <div class="col-span-6 sm:col-span-2">
+          <label
+            for="first-name"
+            class="block text-sm font-medium text-gray-700"
+            >File Upload</label
+          >
+          <input
+            type="file"
+            name="first-name"
+            id="first-name"
+            placeholder="File Upload"
+            autocomplete="given-name"
             accept=".jpeg,.jpg,.png"
-             name="postal-code" id="postal-code" autocomplete="postal-code" style="border-width: 2.25px">
-          </div>
-        </td>
-     </tr>
-
-   </table>
-
-
-
+            class="
+              mt-1
+              focus:ring-indigo-500 focus:border-indigo-500
+              block
+              w-full
+              shadow-sm
+              sm:text-sm
+              border-gray-300
+              rounded-md
+            "
+          />
+        </div>
       </div>
       <div class="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
         <button type="button" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">Save</button>
