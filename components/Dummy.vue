@@ -53,6 +53,7 @@
           <General />
        <button
          style="margin-top:30px "
+         v-on:click="activetab= 2"
           type="submit"
           class="
             inline-flex
@@ -80,9 +81,10 @@
         <div style="margin:10px" v-if="activetab === 2" class="tabcontent">
              <Contact />
 
-              <button
+        <button
          style="margin-top:30px "
           type="submit"
+          v-on:click="activetab= 3"
           class="
             inline-flex
             justify-center
@@ -108,9 +110,11 @@
          <div style="margin:10px" v-if="activetab === 3" class="tabcontent">
              <Education />
 
-              <button
+         <button
          style="margin-top:30px "
           type="submit"
+          v-on:click="activetab= 4"
+
           class="
             inline-flex
             justify-center
@@ -139,6 +143,7 @@
               <button
          style="margin-top:30px "
           type="submit"
+          v-on:click="activetab= 5"
           class="
             inline-flex
             justify-center
@@ -166,6 +171,7 @@
 
               <button
          style="margin-top:30px "
+          v-on:click="activetab= 6"
           type="submit"
           class="
             inline-flex
