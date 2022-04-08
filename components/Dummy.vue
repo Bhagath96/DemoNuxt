@@ -172,7 +172,7 @@
 
               <button
          style="margin-top:30px "
-          v-on:click="activetab= 6"
+          v-on:click="activetab= 1"
           type="submit"
           class="
             inline-flex
