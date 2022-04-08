@@ -1,6 +1,7 @@
 <template>
 <div class="mt-5 md:mt-0 md:col-span-2" style="margin: 10px;">
  <form action="#" method="POST">
+
       <div class="pt-4 pb-2">
         <h3 class="text-md leading-6 font-medium text-gray-900">
           General Details

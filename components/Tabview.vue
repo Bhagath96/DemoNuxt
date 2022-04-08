@@ -46,7 +46,7 @@
     </select>
   </div>
   <div class="hidden sm:block">
-    <nav class="flex space-x-4" aria-label="Tabs">
+    <nav class="flex space-x-4" aria-label="Tabs" style="margin-bottom:20px">
       <!-- Current: "bg-gray-100 text-gray-700", Default: "text-gray-500 hover:text-gray-700" -->
       <a href="#"  v-on:click="activetab='1'" v-bind:class="[ activetab === '1' ? 'active underline decoration-4 text-gray-500 hover:text-gray-700 px-3 py-2 font-medium text-sm rounded-md' : 'text-gray-300 hover:text-gray-700 px-3 py-2 font-medium text-sm rounded-md' ] ">
         General Details</a>
@@ -55,7 +55,7 @@
   </div>
      <div class="content">
         <div v-if="activetab ==='1'" class="tabcontent">
-          <Generalview />
+          <Dummy />
         </div>
         <div v-if="activetab ==='2'" class="tabcontent">
              <assets/>
@@ -69,6 +69,8 @@
 import Generalview from '~/pages/Employee/Generalview'
 import Assets from '~/pages/Employee/Assets'
 import Modal from "~/components/Modal";
+import Dummy from "~/components/Dummy";
+
 
   name:'Tabview';
 let activetab = '1';
@@ -83,7 +85,8 @@ export default {
   },
   components:{
     Generalview,
-    Assets
+    Assets,
+    Dummy
   },
   beforeCreate(){
    this.activetab = '1'
