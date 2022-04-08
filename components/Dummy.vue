@@ -14,14 +14,15 @@
     </select>
   </div>
   <div class="hidden sm:block">
-    <nav class="flex space-x-4" aria-label="Tabs" style="border-width:medium; border-color:rgb(145 185 249)">
+    <nav class="flex space-x-4" aria-label="Tabs" style=" width:fit-content; border-width:medium; border-color:rgb(145 185 249)">
       <!-- Current: "bg-gray-100 text-gray-700", Default: "text-gray-500 hover:text-gray-700" -->
-      <a href="#" style="margin:0" v-on:click="activetab= 1" v-bind:class="[ activetab === 1 ? 'active  decoration-4 text-black-500 hover:text-black-700 px-3 py-2 font-medium text-sm rounded-md' : 'text-blue-300 hover:text-blue-700 px-3 py-2 font-medium text-sm rounded-md' ] ">
+      <a href="#" style="margin: 0px;"
+     v-on:click="activetab= 1" v-bind:class="[ activetab === 1 ? 'active  decoration-4 text-black-500 hover:text-black-700 px-3 py-2 font-medium text-sm rounded-md' : 'text-blue-300 hover:text-blue-700 px-3 py-2 font-medium text-sm rounded-md' ] ">
         General Details</a>
         <svg  style="height:55px;margin:0px" class=" text-blue-500" viewBox="0 0 22 80" fill="none" preserveAspectRatio="none">
           <path d="M0 -2L20 40L0 82" vector-effect="non-scaling-stroke" stroke="currentcolor" stroke-linejoin="round" />
         </svg>
-      <a href="#" style="margin:0" v-on:click="activetab= 2" v-bind:class="[ activetab === 2 ? 'active  decoration-4 text-black-500 hover:text-black-700 px-3 py-2 font-medium text-sm rounded-md' : 'text-blue-300 hover:text-blue-700 px-3 py-2 font-medium text-sm rounded-md' ] ">
+      <a href="#" style="margin: 0px;" v-on:click="activetab= 2" v-bind:class="[ activetab === 2 ? 'active  decoration-4 text-black-500 hover:text-black-700 px-3 py-2 font-medium text-sm rounded-md' : 'text-blue-300 hover:text-blue-700 px-3 py-2 font-medium text-sm rounded-md' ] ">
          Contact Details
       </a>
        <svg  style="height:55px;margin:0px" class=" text-blue-500" viewBox="0 0 22 80" fill="none" preserveAspectRatio="none">
