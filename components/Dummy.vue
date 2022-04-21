@@ -105,8 +105,8 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
@@ -135,8 +135,8 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
@@ -164,8 +164,8 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
@@ -193,8 +193,8 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
@@ -223,8 +223,8 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
@@ -252,8 +252,8 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
