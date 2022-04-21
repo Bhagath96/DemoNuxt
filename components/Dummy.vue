@@ -71,6 +71,7 @@
             px-4
             border border-transparent
             shadow-sm
+            w-36
             text-sm
             font-medium
             rounded-md
@@ -101,6 +102,7 @@
             px-4
             border border-transparent
             shadow-sm
+            w-36
             text-sm
             font-medium
             rounded-md
@@ -131,6 +133,7 @@
             px-4
             border border-transparent
             shadow-sm
+            w-36
             text-sm
             font-medium
             rounded-md
@@ -160,6 +163,7 @@
             px-4
             border border-transparent
             shadow-sm
+            w-36
             text-sm
             font-medium
             rounded-md
@@ -189,6 +193,7 @@
             px-4
             border border-transparent
             shadow-sm
+            w-36
             text-sm
             font-medium
             rounded-md
@@ -218,7 +223,7 @@
             py-2
             px-4
             border border-transparent
-            shadow-sm
+             shadow-sm  w-36
             text-sm
             font-medium
             rounded-md
@@ -247,7 +252,7 @@
             py-2
             px-4
             border border-transparent
-            shadow-sm
+             shadow-sm  w-36
             text-sm
             font-medium
             rounded-md
