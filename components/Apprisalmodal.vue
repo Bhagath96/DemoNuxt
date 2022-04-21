@@ -418,7 +418,7 @@
         >
           <button
             type="button"
-            @click="toggleModal"
+            @click="IsSaved"
             class="
               w-full
               inline-flex
@@ -478,6 +478,6 @@
 <script>
 export default {
   name: "Appraisalmodal",
-  props: ["toggleModal"],
+  props: ["toggleModal","IsSaved"],
 };
 </script>

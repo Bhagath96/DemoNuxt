@@ -1,5 +1,6 @@
  <template>
-  <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+ <div>
+  <div v-if="!IsSave" class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
     <div class="grid grid-cols-12 gap-4 mt-3 py-3 pl-8">
       <div class="col-span-12 md:col-span-6 lg:col-span-3">
         <Search />
@@ -117,7 +118,7 @@
               <td class="whitespace-nowrap px-3 py-3 text-sm text-gray-500">
                 {{ item.designation }}
               </td>
-  <td class="whitespace-nowrap px-3 py-3 text-sm text-gray-500">
+    <td class="whitespace-nowrap px-3 py-3 text-sm text-gray-500">
                 {{ item.department }}
               </td>
                 <td class="whitespace-nowrap px-3 py-3 text-sm text-gray-500">
@@ -163,12 +164,16 @@
         </table>
       </div>
     </div>
-    <Apprisalmodal :toggleModal="toggleModal" v-if="showmodal" />
+    <Apprisalmodal :toggleModal="toggleModal" :IsSaved="IsSaved" v-if="showmodal" />
   </div>
+  <Apprisaltree v-if="IsSave" />
+  </div>
+
 </template>
 
 <script>
 import Apprisalmodal from "~/components/Apprisalmodal";
+import Apprisaltree from "~/components/Apprisaltree";
 import Search from "~/components/Search";
 
 export default {
@@ -177,6 +182,7 @@ export default {
     return {
       searchQuery: "",
       showmodal: false,
+      IsSave:false,
       listItems: [
         {
           id: 1,
@@ -223,8 +229,13 @@ export default {
   },
   methods: {
     async toggleModal() {
+      console.log('showmodal',this.showmodal);
       this.showmodal = !this.showmodal;
     },
+    async IsSaved(){
+      console.log('IsSaveIsSaveIsSaveIsSaveIsSave',this.IsSave);
+      this.IsSave = !this.IsSave;
+    }
   },
   computed: {
     filteredRows() {

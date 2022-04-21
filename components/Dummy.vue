@@ -14,8 +14,7 @@
     </select>
   </div>
   <div class="hidden sm:block">
-    <nav class="flex space-x-4" aria-label="Tabs" style=" width:fit-content; border-width:medium; border-color:#a9afba">
-      <!-- Current: "bg-gray-100 text-gray-700", Default: "text-gray-500 hover:text-gray-700" -->
+    <nav class="flex space-x-4" aria-label="Tabs" style=" width:fit-content; border-width:thin;border-radius:5px;border-color:#a9afba;box-shadow:1px 1px #dfd6d6;">
    <a href="#" style="margin-top:5px;"
      v-on:click="activetab= 1" v-bind:class="[ activetab === 1 ? 'active  decoration-4 text-black-500 hover:text-black-700 px-3 py-2 font-medium text-sm rounded-md' : 'text-blue-300 hover:text-blue-700 px-3 py-2 font-medium text-sm rounded-md' ] ">
         General Details</a>
@@ -76,12 +75,12 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-red-600
+            hover:bg-red-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
-            focus:ring-indigo-500
+            focus:ring-red-500
           "
         >
           Save

@@ -2,7 +2,7 @@
 <div class="flex ...">
 <div class="flex-none w-14 h-14 ..."></div>
 <div class="grow h-14 ...">
-    <div class="sticky top-0 z-10 flex... h-16 bg-white shadow mt-5">
+    <div class="sticky top-0 z-10 flex... h-12 bg-white shadow mt-4">
       <div class="flex-1 px-4 flex justify-between">
         <div class="flex-1 flex">
           <form class="w-full flex md:ml-0" action="#" method="GET">

@@ -77,6 +77,7 @@ import Assets from '~/pages/Employee/Assets'
 import Modal from "~/components/Modal";
 import Dummy from "~/components/Dummy";
 import Appraisal from "~/components/Appraisal";
+import Apprisaltree from "~/components/Apprisaltree";
 
 
   name:'Tabview';
